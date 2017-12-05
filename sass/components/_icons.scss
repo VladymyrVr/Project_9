@@ -1,0 +1,90 @@
+.icon {
+  &-monitor::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 73px;
+    height: 60px;
+    background: url("../images/monitor.png");
+  }
+
+  &-lighbulb::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 41px;
+    height: 60px;
+    background: url("../images/bulb.png");
+  }
+
+  &-briefcase::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 72px;
+    height: 60px;
+    background: url("../images/briefcase.png");
+  }
+
+  &-cloud::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 79px;
+    height: 60px;
+    background: url("../images/cloud.png");
+  }
+
+  &-atom::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 56px;
+    height: 60px;
+    background: url("../images/atom.png");
+  }
+
+  &-pencil-rourer::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background: url("../images/pencil-rourer.png");
+  }
+
+  &-facebook-sm::before {
+    font-family: 'FontAwesome', sans-serif;
+    content: "\f09a";
+    color: $graphite-lighten;
+    font-size: 1.125rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-twitter-sm::before {
+    font-family: 'FontAwesome', sans-serif;
+    content: "\f099";
+    color: $graphite-lighten;
+    font-size: 1.125rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-linkedin-sm::before {
+    font-family: 'FontAwesome', sans-serif;
+    content: "\f08c";
+    color: $graphite-lighten;
+    font-size: 1.125rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+}

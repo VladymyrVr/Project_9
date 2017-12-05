@@ -1,0 +1,28 @@
+.welcome-section {
+  height: 100vh;
+  background: url("../images/bg-welcome.png") no-repeat center center;
+  background-size: 100% 100%;
+
+  .welcome-content {
+    h1 {
+      font: 700 3.8rem/3.875rem 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      color: $white;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 1.4rem;
+      line-height: 2rem;
+      color: $white;
+      margin-bottom: 70px;
+    }
+  }
+}
+.welcome-flex-wrapper {
+  max-width: 900px;
+  display: flex;
+  height: calc(100vh - 109px);
+  margin: 0 auto  ;
+  text-align: center;
+  align-items: center;
+}

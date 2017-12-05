@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  text-transform: uppercase;
+
+  .logo {
+    margin-left: 15px;
+  }
+
+  ul {
+    li{
+      display: inline-block;
+      list-style: none;
+      margin-right: 50px;
+      &:last-child {
+        margin: 0;
+      }
+
+      a {
+        color:#fff ;
+        opacity: .75;
+        font-size: 13px;
+        font-weight: 700;
+      }
+    }
+  }
+}

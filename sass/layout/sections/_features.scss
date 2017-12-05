@@ -1,0 +1,28 @@
+.features-section {
+  padding: 120px 0 50px 0;
+
+  .features-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    li {
+      flex-basis: 300px;
+      margin-bottom: 70px;
+      text-align: center;
+
+      h2 {
+        font-size: .875rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 30px 0 25px 0;
+      }
+
+      p {
+        color: $graphite-light;
+        font-size: .875rem;
+        line-height: 1.25rem;
+      }
+    }
+  }
+}
