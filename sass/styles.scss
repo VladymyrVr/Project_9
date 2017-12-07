@@ -6,11 +6,14 @@
 @import "general/variables";
 @import "general/base";
 
+
 @import "components/buttons";
 @import "components/icons";
+@import "components/burger-toggle";
 
 
 @import "layout/header";
+@import "layout/footer";
 
 @import "layout/sections/welcome";
 @import "layout/sections/features";
@@ -19,4 +22,5 @@
 @import "layout/sections/clients";
 @import "layout/sections/download";
 
+@import "general/media";
 

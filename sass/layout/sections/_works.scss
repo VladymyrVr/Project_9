@@ -4,6 +4,7 @@
 
   li {
     width: calc(25% - 1px);
+    max-height: 340px;
     overflow: hidden;
     margin-bottom: 1px;
     margin-right: 1px;
@@ -25,18 +26,22 @@
       -moz-transition-timing-function: ease-out;
       -moz-transition-duration: 550ms;
 
-      &:hover {
-        -webkit-transform: scale(1.2,1.2);
-        -webkit-transition-timing-function: ease-out;
-        -webkit-transition-duration: 550ms;
-        -moz-transform: scale(1.2,1.2);
-        -moz-transition-timing-function: ease-out;
-        -moz-transition-duration: 550ms;
-      }
+
 
     }
 
     &:hover{
+
+      & img {
+          -webkit-transform: scale(1.2,1.2);
+          -webkit-transition-timing-function: ease-out;
+          -webkit-transition-duration: 550ms;
+          -moz-transform: scale(1.2,1.2);
+          -moz-transition-timing-function: ease-out;
+          -moz-transition-duration: 550ms;
+          opacity: .2;
+      }
+
 
       &>.project-detail {
         display: block;
@@ -64,8 +69,11 @@
       h3 {
         color: $white;
         font-size: .875rem;
-      ;
       }
     }
   }
+}
+.bg-wrapper {
+  background-color: rgba(232, 69, 69, 0.9);
+  display: block;
 }

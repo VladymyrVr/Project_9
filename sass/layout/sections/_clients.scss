@@ -1,4 +1,9 @@
 .clients-section {
+
+
+  .img-wrapper {
+    max-height: 410px;
+  }
   .slides {
     position: relative;
 
@@ -73,7 +78,7 @@
 
   .nav-dots {
     width: 100%;
-    bottom: -350px;
+    top: 350px;
     height: 10px;
     display: block;
     position: absolute;

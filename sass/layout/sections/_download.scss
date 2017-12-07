@@ -1,4 +1,19 @@
 .download-section {
   padding: 100px 0;
   text-align: center;
+
+  h2 {
+    font-size: 1.75rem;
+    line-height: 1.3rem;
+    font-weight: 100;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: .8rem;
+    line-height: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
 }

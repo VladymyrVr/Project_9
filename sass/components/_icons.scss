@@ -86,5 +86,12 @@
     transform: translate(-50%, -50%);
   }
 
+  &-heart::before {
+    font-family: 'FontAwesome', sans-serif;
+    content: "\f004";
+    color: $succes;
+    padding: 0 5px ;
+  }
+
 
 }

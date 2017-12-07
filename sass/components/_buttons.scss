@@ -12,6 +12,11 @@ button {
     color: $white;
     font-size: 0.8rem;
     line-height: 1.3rem;
-    font-weight: 500;
+    font-weight: 700;
+  }
+
+  &-main-lg {
+    @extend .btn-main;
+    width: 280px;
   }
 }

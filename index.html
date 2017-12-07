@@ -6,15 +6,23 @@
     <title>Project-9</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/lightbox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/carousel-fix.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/lightbox-option.js"></script>
+    <script src="js/navbar.js"></script>
 </head>
 <body>
     <section class="welcome-section">
         <div class="wrapper">
             <header>
-                <div class="logo">
-                    <img src="images/logo.png" alt="Logo">
+                <div class='navbar-toggle' title='Menu'>
+                    <div class='bar1'></div>
+                    <div class='bar2'></div>
+                    <div class='bar3'></div>
                 </div>
-                <nav class="nav-bar">
+                <nav class="nav-hide main-nav">
                     <ul>
                         <li><a href="#">Features</a></li>
                         <li><a href="#">Works</a></li>
@@ -23,6 +31,20 @@
                         <li><a href="#">Download</a></li>
                     </ul>
                 </nav>
+                <div class="wrapper flex-wrapper">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="Logo">
+                    </div>
+                    <nav class="nav-bar">
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Works</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Download</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
             <div class="welcome-flex-wrapper">
                 <div class="welcome-content">
@@ -67,56 +89,88 @@
     <section class="works-section">
         <ul class="works-list">
             <li>
-                <img src="images/first-work.png" alt="">
+                <div class="bg-wrapper">
+                    <a href="images/first-work.png" data-lightbox="works">
+                        <img src="images/first-work.png" alt="" />
+                    </a>
+                </div>
                 <div class="project-detail">
                     <h2>Project Name</h2>
                     <h3>User Interface Design</h3>
                 </div>
             </li>
             <li>
-                <img src="images/second-work.png" alt="">
+                <div class="bg-wrapper">
+                    <a href="images/second-work.png" data-lightbox="works">
+                        <img src="images/second-work.png" alt="" />
+                    </a>
+                </div>
                 <div class="project-detail">
                     <h2>Project Name</h2>
                     <h3>User Interface Design</h3>
                 </div>
             </li>
             <li>
-                <img src="images/third-work.jpg" alt="">
+                <div class="bg-wrapper">
+                    <a href="images/third-work.jpg" data-lightbox="works">
+                        <img src="images/third-work.jpg" alt="" />
+                    </a>
+                </div>
                 <div class="project-detail">
                     <h2>Project Name</h2>
                     <h3>User Interface Design</h3>
                 </div>
             </li>
             <li>
-                <img src="images/fourth-work.png" alt="">
+                <div class="bg-wrapper">
+                    <a href="images/fourth-work.png" data-lightbox="works">
+                        <img src="images/fourth-work.png" alt="" />
+                    </a>
+                </div>
                 <div class="project-detail">
                     <h2>Project Name</h2>
                     <h3>User Interface Design</h3>
                 </div>
             </li>
             <li>
-                <img src="images/fifth-work.png" alt="">
+                <div class="bg-wrapper">
+                    <a href="images/fifth-work.png" data-lightbox="works">
+                        <img src="images/fifth-work.png" alt="" />
+                    </a>
+                </div>
                 <div class="project-detail">
                     <h2>Project Name</h2>
                     <h3>User Interface Design</h3>
                 </div>
             </li>
             <li>
-                <img src="images/sixth.png" alt="">
+                <div class="bg-wrapper">
+                    <a href="images/sixth.png" data-lightbox="works">
+                        <img src="images/sixth.png" alt=""/>
+                    </a>
+                </div>
                 <div class="project-detail">
                     <h2>Project Name</h2>
                     <h3>User Interface Design</h3>
                 </div>
             </li>
             <li>
-                <img src="images/seventh-work.png" alt="">
+                <div class="bg-wrapper">
+                    <a href="images/seventh-work.png" data-lightbox="works">
+                        <img src="images/seventh-work.png" alt="" />
+                    </a>
+                </div>
                 <div class="project-detail">
                     <h2>Project Name</h2>
                     <h3>User Interface Design</h3>
                 </div>
             </li>
             <li>
-                <img src="images/eith-work.png" alt="">
+                <div class="bg-wrapper">
+                    <a href="images/eith-work.png" data-lightbox="works">
+                    <img src="images/eith-work.png" alt="" />
+                    </a>
+                </div>
                 <div class="project-detail">
                     <h2>Project Name</h2>
                     <h3>User Interface Design</h3>
@@ -248,10 +302,47 @@
     </section>
     <section class="download-section">
         <div class="download-app">
-            <h2>Wtf</h2>
-            <p>Wtf</p>
-            <button class="btn-main" type="button">Download here</button>
+            <h2>Are You Ready to Start? Download Now For Free!</h2>
+            <p>Fusce dapibus, tellus ac cursus commodo</p>
+            <button class="btn-main-lg" type="button">Download here</button>
         </div>
     </section>
+    <footer>
+        <div class="footer-top">
+            <div class="wrapper">
+                <ul>
+                    <li class="location">
+                        <h2>Location</h2>
+                        <p>3481 Melrose Place
+                            Beverly Hills, CA 90210</p>
+                    </li>
+                    <li>
+                        <h2>Share with love</h2>
+                        <ul class="social-net-list">
+                            <li>
+                                <a  class="icon-facebook-sm"href="https://www.facebook.com/" target="_blank"></a>
+                            </li>
+                            <li>
+                                <a class="icon-twitter-sm" href="https://twitter.com/" target="_blank"></a>
+                            </li>
+                            <li>
+                                <a class="icon-linkedin-sm" href="https://www.linkedin.com/" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="about">
+                        <h2 >About</h2>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+             <div class="copyright">
+                 <p>Copyright © 2015 Template. All Rights Reserved</p>
+                 <p>Made with <span><a class="icon-heart" href="#">by Kamal Chaneman</a></span></p>
+             </div>
+        </div>
+    </footer>
 </body>
 </html>

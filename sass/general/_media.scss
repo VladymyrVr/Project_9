@@ -1,0 +1,286 @@
+@media screen and (min-width: 1200px) and (max-width: 1700px) {
+  .works-list {
+    li {
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px){
+  header {
+
+    .wrapper {
+      max-width: 1000px;
+    }
+
+    .navbar-toggle {
+      right: 90px;
+    }
+
+    .nav-bar {
+      display: none;
+    }
+
+    .navbar-toggle {
+      display: block;
+    }
+  }
+
+  .works-list {
+    li {
+      max-height: 210px;
+    }
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .team-section .team-list {
+    justify-content: space-around;
+    li {
+      flex-basis: 200px;
+      text-align: center;
+    }
+  }
+
+  .team-section .img-wrapper {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .features-section .features-list {
+    justify-content: space-around;
+    li {
+      flex-basis: 260px;
+    }
+  }
+
+
+  header {
+    .wrapper {
+      max-width: 900px;
+    }
+
+    .navbar-toggle {
+      right: 70px;
+    }
+
+  }
+
+
+  .welcome-section .welcome-content h1 {
+    font-size: 3rem;
+  }
+  .welcome-section .welcome-content p {
+    max-width: 600px;
+    margin: 0 auto 70px auto;
+  }
+
+  .works-list {
+    li {
+      width: calc(50% - 1px);
+      max-height: 360px;
+
+      &:nth-child(4n) {
+        width: 50%;
+      }
+    }
+  }
+
+  .clients-section {
+    .nav-dots {
+      top: 250px;
+      right: 50px;
+    }
+    li {
+      .clients-comment {
+          padding-right: 20px;
+        blockquote {
+          color: #fff;
+          font: italic 1.5rem/2rem Cardo, serif;
+          max-width: 500px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .team-list {
+    padding: 0 120px;
+
+    li {
+      flex-basis: 250px;
+
+      .img-wrapper {
+        max-width: 250px;
+        max-height: 250px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    .wrapper {
+      max-width: 700px;
+    }
+    .navbar-toggle {
+      right: 40px;
+    }
+  }
+
+  .welcome-section .welcome-content h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .works-list {
+    li {
+      max-height: 260px;
+    }
+  }
+
+  .team-list {
+    padding: 0 50px;
+  }
+
+  .clients-section .nav-dots {
+    top: 280px;
+    right: 150px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  header {
+
+    .wrapper {
+      max-width: 330px;
+    }
+
+    .navbar-toggle {
+      right: 30px;
+    }
+  }
+
+  .welcome-section .welcome-content h1 {
+    padding: 0 10px;
+    margin-top: 60px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  .welcome-section .welcome-content p {
+    max-width: 270px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 0 auto 70px auto;
+  }
+
+  .navbar-toggle {
+    width: 40px;
+    height: 40px;
+
+    .bar1, .bar2, .bar3 {
+      width: 20px;
+      height: 3px;
+      top: 9px;
+    }
+  }
+
+  .main-nav ul li a {
+    font-size: 1.5rem;
+  }
+
+  .works-list li {
+    width: 100%;
+    max-height: 50vh;
+
+    &:nth-child(4n) {
+      width: 100%;
+      max-height: 50vh;
+    }
+  }
+
+  .clients-section li .slide {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .clients-section  {
+    li {
+      .clients-comment {
+        width: 100%;
+        padding: 20px 0 50px 15px;
+
+        blockquote {
+          max-width: 350px;
+          font: italic 1.25rem/2rem Cardo, serif;
+        }
+      }
+
+      .img-wrapper {
+        width: 100%;
+        max-height: 200px;
+      }
+    }
+  }
+
+
+  .clients-section .nav-dots {
+    top: 360px;
+    right: 300px;
+  }
+
+  .download-section {
+    padding: 100px 30px;
+
+    h2 {
+      line-height: 2rem;
+    }
+
+    p {
+      font-weight: normal;
+    }
+
+    .btn-main-lg {
+      width: 200px;
+    }
+  }
+
+  .footer-top {
+    padding: 40px 15px;
+    & ul {
+      flex-direction: column;
+      align-items: center;
+
+      li {
+        margin-bottom: 30px;
+
+        &:last-child {
+          margin: 0;
+        }
+
+        &.about {
+          flex-basis: 0;
+        }
+
+        .social-net-list {
+          flex-direction: row;
+
+          li:last-child {
+            margin-bottom: 30px;
+          }
+        }
+      }
+
+      .location {
+        flex-basis: 0;
+        max-width: 130px;
+      }
+    }
+  }
+}
+
