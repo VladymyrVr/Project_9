@@ -12,6 +12,7 @@
     <script src="js/lightbox.js"></script>
     <script src="js/lightbox-option.js"></script>
     <script src="js/navbar.js"></script>
+    <script src="js/active.js"></script>
 </head>
 <body>
     <section class="welcome-section">
@@ -36,12 +37,12 @@
                         <img src="images/logo.png" alt="Logo">
                     </div>
                     <nav class="nav-bar">
-                        <ul>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Works</a></li>
-                            <li><a href="#">Our Team</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Download</a></li>
+                        <ul id="menu">
+                            <li><a class="active" href="#features">Features</a></li>
+                            <li><a href="#works">Works</a></li>
+                            <li><a href="#team">Our Team</a></li>
+                            <li><a href="#tesiomonials">Testimonials</a></li>
+                            <li><a href="#download">Download</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -56,7 +57,7 @@
             </div>
         </div>
     </section>
-    <section class="features-section">
+    <section class="features-section" id="features">
         <div class="wrapper">
             <ul class="features-list">
                 <li class="icon-pencil-rourer">
@@ -86,7 +87,7 @@
             </ul>
         </div>
     </section>
-    <section class="works-section">
+    <section class="works-section" id="works">
         <ul class="works-list">
             <li>
                 <div class="bg-wrapper">
@@ -178,7 +179,7 @@
             </li>
         </ul>
     </section>
-    <section class="team-section">
+    <section class="team-section" id="team">
         <div class="wrapper">
             <ul class="team-list">
                 <li>
@@ -260,7 +261,7 @@
             </ul>
         </div>
     </section>
-    <section class="clients-section">
+    <section class="clients-section" id="tesiomonials">
         <ul class="slides">
             <input type="radio" name="radio-btn" id="img-1" checked />
             <li class="slide-container">
@@ -300,7 +301,7 @@
             </li>
         </ul>
     </section>
-    <section class="download-section">
+    <section class="download-section" id="download">
         <div class="download-app">
             <h2>Are You Ready to Start? Download Now For Free!</h2>
             <p>Fusce dapibus, tellus ac cursus commodo</p>
